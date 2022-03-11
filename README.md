@@ -10,9 +10,11 @@ https://printfn.github.io/lunar-phase/api/lunar-phase-data/{year}/index.json
 
 The response is in this format:
 
-```json
+```js
 [
-    { "Date": "1700-01-05T10:30:00", "Phase": 2 }
+    { "Date": "1700-01-05T10:30:00", "Phase": 2 },
+    { "Date": "1700-01-12T03:34:00", "Phase": 3 },
+    // ...
 ]
 ```
 
@@ -31,4 +33,6 @@ Phases:
 | 3 | Last Quarter |
 | - | Waning Crescent |
 
-Based on [github.com/CraigChamberlain/moon-data](https://github.com/CraigChamberlain/moon-data).
+---
+
+Based on [github.com/CraigChamberlain/moon-data](https://github.com/CraigChamberlain/moon-data)
