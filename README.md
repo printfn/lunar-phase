@@ -12,8 +12,8 @@ The response is in this format:
 
 ```js
 [
-    { "Date": "1700-01-05T10:30:00", "Phase": 2 },
-    { "Date": "1700-01-12T03:34:00", "Phase": 3 },
+    { "Date": "1700-01-05T10:30:00Z", "Phase": 2 },
+    { "Date": "1700-01-12T03:34:00Z", "Phase": 3 },
     // ...
 ]
 ```
